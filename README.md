@@ -51,7 +51,7 @@ Enter grade (or press Enter to stop): 90
 Enter grade (or press Enter to stop): 85
 Enter grade (or press Enter to stop): 92
 Enter grade (or press Enter to stop): 
-✅ Alice added successfully!
+ Alice added successfully!
 
 === Student Grade Tracker ===
 1. Add Student
