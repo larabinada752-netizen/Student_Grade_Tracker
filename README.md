@@ -13,42 +13,59 @@ User-friendly menu with error handling.
 
 Handles empty grade lists gracefully.
 
-Usage :
+# Requirements
 
-Run the program.
+Python 3.7+
 
-Use the menu options:
+No external libraries needed
 
-1: Add a student and their grades.
+# How to Run
+1 Download or clone the repository
 
-2: Show all students with their grades and average.
+2 Open terminal in the project folder
 
-3: Search for a specific student.
+3 Run the script:
+python student_grade_tracker.py
+
+4 Follow the interactive menu:
+
+1 → Add a student
+
+2 → Show all students
+
+3 → Search for a student
+
+4 → Exit the program
+
+![Run 1](https://github.com/larabinada752-netizen/Student_Grade_Tracker/blob/855ee11464e83053b3c942feaddbd8aedb0729f1/run_1.png.jpeg?raw=true)
+
+# Example Output
 === Student Grade Tracker ===
 1. Add Student
 2. Show Students
 3. Search Student
 4. Exit
 Choose an option: 1
-
 Enter student name: Alice
+Enter grade (or press Enter to stop): 90
 Enter grade (or press Enter to stop): 85
 Enter grade (or press Enter to stop): 92
 Enter grade (or press Enter to stop): 
+✅ Alice added successfully!
 
-   Alice added successfully!
+=== Student Grade Tracker ===
+1. Add Student
+2. Show Students
+3. Search Student
+4. Exit
+Choose an option: 2
 
+--- Student List ---
+Alice - Grades: [90.0, 85.0, 92.0] | Average: 89.00
 
-4: Exit the program.
-Contributing 
+# Tips
+Grades can be entered as floating point numbers.
 
-Feel free to fork this project and submit pull requests. Improvements like:
+Leave the grade input blank to stop adding grades for a student.
 
-Persistent storage (JSON/CSV)
-
-Update/Delete student functionality
-
-Enhanced grade validation
-are welcome!
-
-Follow prompts to enter student names and grades. Press Enter without input to stop adding grades.
+The program keeps data in memory only (not saved to a file).
